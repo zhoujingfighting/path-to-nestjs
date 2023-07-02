@@ -12,8 +12,8 @@ export class LifeCycleService {
     return `This action returns all lifeCycle`;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} lifeCycle`;
+  findOne(id: number | string) {
+    return `This actioqqn returns a ${id} lifeCycle`;
   }
 
   update(id: number, updateLifeCycleDto: UpdateLifeCycleDto) {
