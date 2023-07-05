@@ -7,3 +7,6 @@ GET http://localhost:3000/life-cycle/11111
 ### 
 GET http://localhost:3000
 
+### 
+GET http://localhost:8080
+
